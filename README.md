@@ -1,5 +1,9 @@
 # LRU 缓存（Least Recently Used）
 
+![Tests](https://github.com/hug-creator/lru-cache/actions/workflows/test.yml/badge.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
+
 基于 **哈希表 + 双向链表** 的 LRU 缓存实现，`get` / `put` 均为 **O(1)** 时间复杂度。纯标准库，零第三方依赖。
 
 ## 核心思路
